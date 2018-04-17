@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="844c153c-db00-4257-9b1c-fb9ffb18f78d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="parsers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDB.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDB.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupsService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>py</find>
+      <find>list</find>
+      <find>showin</find>
+      <find>ldapDateFormater</find>
+      <find>msExchHideFromAddressLists</find>
+      <find>[</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/User.js" />
+        <option value="$PROJECT_DIR$/src/model/UserLdap.js" />
+        <option value="$PROJECT_DIR$/src/LdapExtractors/index.js" />
+        <option value="$PROJECT_DIR$/src/LdapExtractors/UsersService.js" />
+        <option value="$PROJECT_DIR$/src/model/GroupLdap.js" />
+        <option value="$PROJECT_DIR$/src/LdapExtractors/GroupsService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/UserManager.js" />
+        <option value="$PROJECT_DIR$/src/config.js" />
+        <option value="$PROJECT_DIR$/src/test.js" />
+        <option value="$PROJECT_DIR$/src/Models/UserLdap.js" />
+        <option value="$PROJECT_DIR$/src/Models/GroupLdap.js" />
+        <option value="$PROJECT_DIR$/src/Utils/ldap2date.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/__tests__/Utils/parsers.js" />
+        <option value="$PROJECT_DIR$/src/Models/ContactsLdap.js" />
+        <option value="$PROJECT_DIR$/src/Models/ContactLdap.js" />
+        <option value="$PROJECT_DIR$/src/promiseeventemiter.js" />
+        <option value="$PROJECT_DIR$/contacts.json" />
+        <option value="$PROJECT_DIR$/src/Services/ContactsService.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" />
+        <option value="$PROJECT_DIR$/src/Utils/parsers.js" />
+        <option value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
+        <option value="$PROJECT_DIR$/src/Services/UsersService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" />
+        <option value="$PROJECT_DIR$/src/Services/GroupsService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="288" />
+    <option name="y" value="131" />
+    <option name="width" value="1544" />
+    <option name="height" value="1023" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DatabaseOperations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\DatabaseOperations" />
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\Services" />
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\Models" />
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\LdapExtractors" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\LdapExtractors" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.Parser Functions on src/Utils">
+    <configuration name="Parser Functions on src/Utils" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/__tests__/Utils" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
+      <test-names>
+        <test-name value="Parser Functions on src/Utils" />
+      </test-names>
+    </configuration>
+    <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/__tests__/Utils" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
+      <test-names>
+        <test-name value="Parser Functions on src/Utils" />
+        <test-name value="Test Binary to GUID Converters" />
+        <test-name value="ara" />
+      </test-names>
+    </configuration>
+    <configuration name="Parser Functions on src/Utils.Test LDAP Interval Converstions.ExceptNewDate_WhenPassing_Null" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/__tests__/Utils" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
+      <test-names>
+        <test-name value="Parser Functions on src/Utils" />
+        <test-name value="Test LDAP Interval Converstions" />
+        <test-name value="ExceptNewDate_WhenPassing_Null" />
+      </test-names>
+    </configuration>
+    <configuration name="Parser Functions on src/Utils.Test LDAP Interval Converstions.ExpectToGet26March2018_WhenPassing_131665457517612497" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/__tests__/Utils" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
+      <test-names>
+        <test-name value="Parser Functions on src/Utils" />
+        <test-name value="Test LDAP Interval Converstions" />
+        <test-name value="ExpectToGet26March2018_WhenPassing_131665457517612497" />
+      </test-names>
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.Parser Functions on src/Utils.Test LDAP Interval Converstions.ExpectToGet26March2018_WhenPassing_131665457517612497" />
+      <item itemvalue="Jest.Parser Functions on src/Utils" />
+      <item itemvalue="Jest.Parser Functions on src/Utils.Test LDAP Interval Converstions.ExceptNewDate_WhenPassing_Null" />
+      <item itemvalue="Jest.Parser Functions on src/Utils.Test Binary to GUID Converters.ara" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Parser Functions on src/Utils" />
+        <item itemvalue="Jest.Parser Functions on src/Utils.Test Binary to GUID Converters.ara" />
+        <item itemvalue="Jest.Parser Functions on src/Utils.Test LDAP Interval Converstions.ExceptNewDate_WhenPassing_Null" />
+        <item itemvalue="Jest.Parser Functions on src/Utils.Test LDAP Interval Converstions.ExpectToGet26March2018_WhenPassing_131665457517612497" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="844c153c-db00-4257-9b1c-fb9ffb18f78d" name="Default" comment="" />
+      <created>1523021053323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523021053323</updated>
+      <workItem from="1523021054756" duration="460000" />
+      <workItem from="1523021684994" duration="5622000" />
+      <workItem from="1523264134175" duration="19437000" />
+      <workItem from="1523356251915" duration="6301000" />
+      <workItem from="1523440023528" duration="18881000" />
+      <workItem from="1523522848280" duration="21188000" />
+      <workItem from="1523610864606" duration="18312000" />
+      <workItem from="1523867097116" duration="20676000" />
+      <workItem from="1523956102239" duration="6432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Parser_Functions_on_src_Utils - 2018.04.16 at 17h 47m 03s.xml">
+      <configuration name="Parser Functions on src/Utils" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 52m 51s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 53m 15s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 53m 44s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 55m 18s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 56m 28s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 58m 26s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 17h 58m 57s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils_Test_Binary_to_GUID_Converters_ara - 2018.04.16 at 18h 00m 26s.xml">
+      <configuration name="Parser Functions on src/Utils.Test Binary to GUID Converters.ara" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Parser_Functions_on_src_Utils - 2018.04.16 at 18h 02m 46s.xml">
+      <configuration name="Parser Functions on src/Utils" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="117309000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1938883" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2570806" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33660132" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33877996" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/Utils/parsers.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/UserLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="87" lean-forward="true" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/GroupLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/UserLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promiseeventemiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ldapjs/bin/ldapjs-search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="8" selection-start-line="14" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ldapjs/lib/client/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ldap2date/ldap2date.js" />
+    <entry file="file://$PROJECT_DIR$/src/test.js" />
+    <entry file="file://$PROJECT_DIR$/myjsonfile.json" />
+    <entry file="file://$PROJECT_DIR$/src/Models/UserLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/GroupLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promiseeventemiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/ldap2date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/Utils/parsers.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/ContactLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18270">
+          <caret line="1015" column="23" selection-start-line="1015" selection-start-column="22" selection-end-line="1015" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ContactsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
