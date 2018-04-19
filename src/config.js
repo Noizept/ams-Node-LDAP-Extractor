@@ -1,8 +1,8 @@
 'use strict';
 const config = {
         database : {
-            user: 'SVIU',
-            password: 'Sublime1337$',
+            user: 'ADIR_OWNER',
+            password: 'dement0r',
             connectString : 'ITASDEV.AMSINT.COM'
         },
         ldap : {

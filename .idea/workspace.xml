@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="844c153c-db00-4257-9b1c-fb9ffb18f78d" name="Default" comment="" />
+    <list default="true" id="844c153c-db00-4257-9b1c-fb9ffb18f78d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promiseeventemiter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promiseeventemiter.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,48 +21,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parsers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+    <leaf>
+      <file leaf-file-name="index2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupDB.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js">
+      <file leaf-file-name="GroupsReplicationService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupsService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -77,7 +67,14 @@
       <find>ldapDateFormater</find>
       <find>msExchHideFromAddressLists</find>
       <find>[</find>
+      <find>[{&quot;description&quot;:null,&quot;displayName&quot;:&quot;ShuRong Guo&quot;,&quot;distinguishedName&quot;:&quot;CN=ShuRong_Guo,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;ShuRong&quot;,&quot;name&quot;:&quot;ShuRong_Guo&quot;,&quot;objectGUID&quot;:&quot;b1893f3f-dd92-4281-a322-b5d66f7cdbe2&quot;,&quot;sn&quot;:&quot;Guo&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121081435.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;ShuRong_Guo&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;ShuRong_Guo@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;ShuRong_Guo&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:ShuRong_Guo@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Hsieh CT&quot;,&quot;distinguishedName&quot;:&quot;CN=Hsieh CT,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;CT&quot;,&quot;name&quot;:&quot;Hsieh CT&quot;,&quot;objectGUID&quot;:&quot;ebf15beb-0783-408c-ae31-04e9884bbd46&quot;,&quot;sn&quot;:&quot;Hsieh&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121082119.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Hsieh CT&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;CT_Hsieh@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;HsiehCT&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:CT_Hsieh@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Janice_Chen&quot;,&quot;distinguishedName&quot;:&quot;CN=Janice_Chen,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Janice&quot;,&quot;name&quot;:&quot;Janice_Chen&quot;,&quot;objectGUID&quot;:&quot;9e67b903-5ef9-4b39-b7fb-ad1035d0432e&quot;,&quot;sn&quot;:&quot;Chen&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121085125.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Janice_Chen&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Janice_Chen@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Janice_Chen&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Janice_Chen@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;JW_MA&quot;,&quot;distinguishedName&quot;:&quot;CN=JW_MA,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;JW&quot;,&quot;name&quot;:&quot;JW_MA&quot;,&quot;objectGUID&quot;:&quot;84b0b176-0144-4129-8289-a31b4bf5a615&quot;,&quot;sn&quot;:&quot;MA&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121085125.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;JW_MA&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;JW_MA@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;JW_MA&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:JW_MA@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Jim_Tang&quot;,&quot;distinguishedName&quot;:&quot;CN=Jim_Tang,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Jim&quot;,&quot;name&quot;:&quot;Jim_Tang&quot;,&quot;objectGUID&quot;:&quot;7b0b8a1f-141b-48e0-a461-c85564a46626&quot;,&quot;sn&quot;:&quot;Tang&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121085125.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Jim_Tang&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Jim_Tang@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Jim_Tang&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Jim_Tang@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;HK_Lan&quot;,&quot;distinguishedName&quot;:&quot;CN=HK_Lan,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;HK&quot;,&quot;name&quot;:&quot;HK_Lan&quot;,&quot;objectGUID&quot;:&quot;74b8e625-c9e2-4888-8bdb-779923f08c3c&quot;,&quot;sn&quot;:&quot;Lan&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121085125.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;HK_Lan&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;HK_Lan@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;HK_Lan&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:HK_Lan@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:&quot;FALSE&quot;},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;CM_Fan&quot;,&quot;distinguishedName&quot;:&quot;CN=CM_Fan,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;CM&quot;,&quot;name&quot;:&quot;CM_Fan&quot;,&quot;objectGUID&quot;:&quot;2e6def74-fa8c-436d-9c60-554ee097073b&quot;,&quot;sn&quot;:&quot;Fan&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090504.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;CM_Fan&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;CM_Fan@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;CM_Fan&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:CM_Fan@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Jeff_Liu&quot;,&quot;distinguishedName&quot;:&quot;CN=Jeff_Liu,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Jeff&quot;,&quot;name&quot;:&quot;Jeff_Liu&quot;,&quot;objectGUID&quot;:&quot;7fc509c9-cc1f-4ea1-88d6-c6cbefc8dfd7&quot;,&quot;sn&quot;:&quot;Liu&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090504.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Jeff_Liu&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Jeff_Liu@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Jeff_Liu&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Jeff_Liu@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;LS_Yeou&quot;,&quot;distinguishedName&quot;:&quot;CN=LS_Yeou,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;LS&quot;,&quot;name&quot;:&quot;LS_Yeou&quot;,&quot;objectGUID&quot;:&quot;8406ff8c-e241-4338-a62e-9738268beba3&quot;,&quot;sn&quot;:&quot;Yeou&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;LS_Yeou&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;LS_Yeou@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;LS_Yeou&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:LS_Yeou@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Nick_Wen&quot;,&quot;distinguishedName&quot;:&quot;CN=Nick_Wen,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Nick&quot;,&quot;name&quot;:&quot;Nick_Wen&quot;,&quot;objectGUID&quot;:&quot;637b11a5-668b-432a-a91f-156b3be15902&quot;,&quot;sn&quot;:&quot;Wen&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Nick_Wen&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Nick_Wen@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Nick_Wen&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Nick_Wen@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Paul_Hsiao&quot;,&quot;distinguishedName&quot;:&quot;CN=Paul_Hsiao,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Paul&quot;,&quot;name&quot;:&quot;Paul_Hsiao&quot;,&quot;objectGUID&quot;:&quot;ef542fb6-953f-4296-9522-32afcac3a75a&quot;,&quot;sn&quot;:&quot;Hsiao&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Paul_Hsiao&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Paul_Hsiao@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Paul_Hsiao&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Paul_Hsiao@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Poly_Bu&quot;,&quot;distinguishedName&quot;:&quot;CN=Poly_Bu,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Poly&quot;,&quot;name&quot;:&quot;Poly_Bu&quot;,&quot;objectGUID&quot;:&quot;45982af7-d6fa-4711-a720-ba43a377938b&quot;,&quot;sn&quot;:&quot;Bu&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Poly_Bu&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Poly_Bu@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Poly_Bu&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Poly_Bu@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Sherry_Wu&quot;,&quot;distinguishedName&quot;:&quot;CN=Sherry_Wu,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Sherry&quot;,&quot;name&quot;:&quot;Sherry_Wu&quot;,&quot;objectGUID&quot;:&quot;3219422d-3af5-43b0-9415-754f82c1ef27&quot;,&quot;sn&quot;:&quot;Wu&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Sherry_Wu&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Sherry_Wu@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Sherry_Wu&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Sherry_Wu@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;WL_Fang&quot;,&quot;distinguishedName&quot;:&quot;CN=WL_Fang,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;WL&quot;,&quot;name&quot;:&quot;WL_Fang&quot;,&quot;objectGUID&quot;:&quot;c750e11e-e22a-44b8-a2e2-941227a7124c&quot;,&quot;sn&quot;:&quot;Fang&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;WL_Fang&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;WL_Fang@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;WL_Fang&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:WL_Fang@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Weiming_Wang&quot;,&quot;distinguishedName&quot;:&quot;CN=Weiming_Wang,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Weiming&quot;,&quot;name&quot;:&quot;Weiming_Wang&quot;,&quot;objectGUID&quot;:&quot;21dfdfac-4792-40d5-b732-ebc26e288b79&quot;,&quot;sn&quot;:&quot;Wang&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121090505.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Weiming_Wang&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Weiming_Wang@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Weiming_Wang&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Weiming_Wang@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;JJ_Chan&quot;,&quot;distinguishedName&quot;:&quot;CN=JJ_Chan,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;JJ&quot;,&quot;name&quot;:&quot;JJ_Chan&quot;,&quot;objectGUID&quot;:&quot;db54b13c-f43f-43a6-9ad9-e643675eb757&quot;,&quot;sn&quot;:&quot;Chan&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121091013.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;JJ_Chan&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;JJ_Chan@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;JJ_Chan&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:JJ_Chan@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Janis_Chang&quot;,&quot;distinguishedName&quot;:&quot;CN=Janis_Chang,OU=Xintec,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Janis&quot;,&quot;name&quot;:&quot;Janis_Chang&quot;,&quot;objectGUID&quot;:&quot;7ee2d428-b607-4bee-bc47-5469ca2379cb&quot;,&quot;sn&quot;:&quot;Chang&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113659.0Z&quot;,&quot;whenCreated&quot;:&quot;20111121091013.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Janis_Chang&quot;,&quot;company&quot;:&quot;Xintec&quot;,&quot;mail&quot;:&quot;Janis_Chang@xintec.com.tw&quot;,&quot;mailNickname&quot;:&quot;Janis_Chang&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Janis_Chang@xintec.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_Joe_Opto-Sensor (E)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Joe Opto-Sensor (E),OU=Externe,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Joe&quot;,&quot;name&quot;:&quot;SMTP_Joe Opto-Sensor (E)&quot;,&quot;objectGUID&quot;:&quot;05691383-5ecc-4539-937a-e9779d1824ae&quot;,&quot;sn&quot;:&quot;Opto-Sensor (E)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160331111227.0Z&quot;,&quot;whenCreated&quot;:&quot;20111020081948.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Joe Opto-Sensor (E)&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;joe@opto-sensor.com.tw&quot;,&quot;mailNickname&quot;:&quot;Joe_Opto-sensor&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:joe@opto-sensor.com.tw&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Neuhold Christian (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=Christian Neuhold (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Christian&quot;,&quot;name&quot;:&quot;Christian Neuhold (TSA)&quot;,&quot;objectGUID&quot;:&quot;38dd8c1a-c83f-4a00-bc9d-539b68f8ff73&quot;,&quot;sn&quot;:&quot;Neuhold&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20091113132025.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Christian Neuhold (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;christian.neuhold@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_ChristianNeuhold&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:christian.neuhold@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;Backup-Support T-Systems (TSM Notify)&quot;,&quot;displayName&quot;:&quot;SMTP_Backup-Support (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Backup-Support (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Backup&quot;,&quot;name&quot;:&quot;SMTP_Backup-Support (TSA)&quot;,&quot;objectGUID&quot;:&quot;098bdc3b-8256-4b03-b583-6856166a54a8&quot;,&quot;sn&quot;:&quot;SMTP_Backup-Support (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20050610090639.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Backup-Support (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;production-backup@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_BackupSupport&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:backup-support@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;smtp-monitor-neonet&quot;,&quot;distinguishedName&quot;:&quot;CN=smtp-monitor-neonet,OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;smtp-monitor-neonet&quot;,&quot;objectGUID&quot;:&quot;9476c33b-4880-4165-bc42-686f294c9994&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20180112080840.0Z&quot;,&quot;whenCreated&quot;:&quot;20180112080835.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;smtp-monitor-neonet&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;smtp-monitor@neonet.at&quot;,&quot;mailNickname&quot;:&quot;smtp-monitor-neonet&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:smtp-monitor-neonet@ams.com&quot;,&quot;SMTP:smtp-monitor@neonet.at&quot;],&quot;msExchExtensionAttribute20&quot;:null,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_LeopoldHarald (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_LeopoldHarald (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_LeopoldHarald (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Harald&quot;,&quot;name&quot;:&quot;SMTP_LeopoldHarald (TSA)&quot;,&quot;objectGUID&quot;:&quot;c2d3973c-160a-4fa2-8fef-aab2d1be43ea&quot;,&quot;sn&quot;:&quot;SMTP_LeopoldHarald (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20081223130624.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_LeopoldHarald (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;harald.leopold@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_LeopoldHarald&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:harald.leopold@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_RieglerAlexandra (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_RieglerAlexandra (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_RieglerAlexandra (TSA)&quot;,&quot;objectGUID&quot;:&quot;43aad45f-0211-4cea-aa95-3310ee89536a&quot;,&quot;sn&quot;:&quot;SMTP_RieglerAlexandra (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113639.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714105218.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_RieglerAlexandra (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;alexandra.riegler@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_RieglerAlexandra&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:alexandra.riegler@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_Storage-Support (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_Storage-Support (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Storage-Support (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;SAN&quot;,&quot;name&quot;:&quot;SMTP_Storage-Support (TSA)&quot;,&quot;objectGUID&quot;:&quot;87719666-6e57-495f-a549-b4eeda2645a3&quot;,&quot;sn&quot;:&quot;SMTP_Storage-Support (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714065248.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Storage-Support (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;storage-support@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Storage-Support&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:storage-support@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_SiebenhoferMichael (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_SiebenhoferMichael (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_SiebenhoferMichael (TSA)&quot;,&quot;objectGUID&quot;:&quot;a3a39c73-2b5a-40f9-ac51-c3600db77a0b&quot;,&quot;sn&quot;:&quot;SMTP_SiebenhoferMichael (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714105259.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_SiebenhoferMichael (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;michael.siebenhofer@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_SiebenhoferMichael&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:michael.siebenhofer@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_AmonRonald (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_AmonRonald (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_AmonRonald (TSA)&quot;,&quot;objectGUID&quot;:&quot;98e4e091-bfdc-4dcd-ad26-602b61586466&quot;,&quot;sn&quot;:&quot;SMTP_AmonRonald (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714104551.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_AmonRonald (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;ronald.amon@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_AmonRonald&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:ronald.amon@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_AtterbiglerJosef (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_AtterbiglerJosef (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_AtterbiglerJosef (TSA)&quot;,&quot;objectGUID&quot;:&quot;4fcab7d0-c34b-4e20-879b-fabd6b54900b&quot;,&quot;sn&quot;:&quot;SMTP_AtterbiglerJosef (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714105117.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_AtterbiglerJosef (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;josef.atterbigler@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_AtterbiglerJosef&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:josef.atterbigler@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_KarlhuberGregor&quot;,&quot;displayName&quot;:&quot;SMTP_KarlhuberGregor (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_KarlhuberGregor (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_KarlhuberGregor (TSA)&quot;,&quot;objectGUID&quot;:&quot;bf270a64-6ec1-45ba-9dd9-5f78c5d8d578&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20051005115818.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_KarlhuberGregor (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;Gregor.Karlhuber@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Karlhuber&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Gregor.Karlhuber@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:&quot;FALSE&quot;},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Leodolter Joerg (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=Leodolter Joerg (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Hans-Joerg&quot;,&quot;name&quot;:&quot;Leodolter Joerg (TSA)&quot;,&quot;objectGUID&quot;:&quot;bb1562ec-cd1d-4fb7-b674-7a78cb891019&quot;,&quot;sn&quot;:&quot;Leodolter&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20051005114902.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Leodolter Joerg (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;Hans-Joerg.leodolter@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Leodolter&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:Hans-Joerg.leodolter@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;SMTP_Moerth (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=Manuel Moerth (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Manuel&quot;,&quot;name&quot;:&quot;Manuel Moerth (TSA)&quot;,&quot;objectGUID&quot;:&quot;cbc95924-9ddc-4212-8ea0-aa5a3becad65&quot;,&quot;sn&quot;:&quot;Moerth&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20101202161734.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Manuel Moerth (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;manuel.moerth@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Moerth&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:manuel.moerth@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Burgi Kurzmann (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=Kurzmann Walburga (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;Kurzmann Walburga (TSA)&quot;,&quot;objectGUID&quot;:&quot;ea2d7e30-69a2-456e-b29f-4035046878c7&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20041116083808.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Kurzmann Walburga (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;walburga.kurzmann@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Kurzmann&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:walburga.kurzmann@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_Witzmann (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_Witzmann (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Witzmann (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Ingo&quot;,&quot;name&quot;:&quot;SMTP_Witzmann (TSA)&quot;,&quot;objectGUID&quot;:&quot;55dfbe79-dfa9-4111-bd45-f715b3b3c9b1&quot;,&quot;sn&quot;:&quot;SMTP_Witzmann (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20041116083745.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Witzmann (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;Ingo.Witzmann@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Witzmann&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:ingo.Witzmann@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;Sharepoint Control&quot;,&quot;displayName&quot;:&quot;ECM ILM MI (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=ECM-ILM MI,OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;ECM-ILM&quot;,&quot;name&quot;:&quot;ECM-ILM MI&quot;,&quot;objectGUID&quot;:&quot;c1383e7b-2ef4-43e6-9145-04810a310a9f&quot;,&quot;sn&quot;:&quot;MI&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20070713071845.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;ECM-ILM MI&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;ecm-ilm-mi@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;ECM-ILMMI&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:ecm-ilm-mi@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_sd_ams (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_sd_ams (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_sd_ams (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;sd&quot;,&quot;name&quot;:&quot;SMTP_sd_ams (TSA)&quot;,&quot;objectGUID&quot;:&quot;202b4e67-5c00-4d4f-b57a-7337a35e796f&quot;,&quot;sn&quot;:&quot;SMTP_sd_ams (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113639.0Z&quot;,&quot;whenCreated&quot;:&quot;20060130114703.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_sd_ams (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;sd_ams@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;sdams&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;FALSE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:sd_ams@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_TSA Leitstand (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_TSA Leitstand (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_TSA Leitstand (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_TSA Leitstand (TSA)&quot;,&quot;objectGUID&quot;:&quot;3123baa7-2e0d-4ca4-ad9c-16ce834121e5&quot;,&quot;sn&quot;:&quot;SMTP_TSA Leitstand (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20041116083741.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_TSA Leitstand (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;leitstand@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Leitstand&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:leitstand@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_NAS-Storage-Support (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_NAS-Storage-Support (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_NAS-Storage-Support (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;NAS&quot;,&quot;name&quot;:&quot;SMTP_NAS-Storage-Support (TSA)&quot;,&quot;objectGUID&quot;:&quot;c793a554-bf97-47b0-8190-ab060d1ce7d3&quot;,&quot;sn&quot;:&quot;SMTP_NAS-Storage-Support (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20100714064727.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_NAS-Storage-Support (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;production-nas-adm@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_NAS-Storage-Support&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:nas-storage-support@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_Zeitlberger (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_Zeitlberger (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Zeitlberger (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;SMTP_Zeitlberger (TSA)&quot;,&quot;objectGUID&quot;:&quot;b02634db-f1fa-482a-beb7-e17a9a3916d2&quot;,&quot;sn&quot;:&quot;SMTP_Zeitlberger (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20100607150308.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Zeitlberger (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;martin.zeitlberger@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Zeitlberger&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:martin.zeitlberger@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;Servicedesk&quot;,&quot;displayName&quot;:&quot;Servicedesk (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=Servicedesk (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Servicedesk&quot;,&quot;name&quot;:&quot;Servicedesk (TSA)&quot;,&quot;objectGUID&quot;:&quot;3864b16e-6866-4df6-b5a1-a20c49e6871b&quot;,&quot;sn&quot;:&quot;Servicedesk&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113632.0Z&quot;,&quot;whenCreated&quot;:&quot;20100212131745.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Servicedesk (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;servicedesk@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_Servicedesk&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:SMTP_Servicedesk@austriamicrosystems.com&quot;,&quot;SMTP:servicedesk@t-systems.at&quot;],&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;SMTP_Numic (TSA)&quot;,&quot;displayName&quot;:&quot;SMTP_Numic (TSA)&quot;,&quot;distinguishedName&quot;:&quot;CN=SMTP_Mirhard Numic (TSA),OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;Mirhad&quot;,&quot;name&quot;:&quot;SMTP_Mirhard Numic (TSA)&quot;,&quot;objectGUID&quot;:&quot;0b78fb1c-6c83-4820-af2b-da0a90fa7e25&quot;,&quot;sn&quot;:&quot;SMTP_Numic (TSA)&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113639.0Z&quot;,&quot;whenCreated&quot;:&quot;20100615120131.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;SMTP_Mirhard Numic (TSA)&quot;,&quot;company&quot;:&quot;T-Systems Austria GesmbH&quot;,&quot;mail&quot;:&quot;mirhad.numic@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;SMTP_MirhardNumic&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:mirhad.numic@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;smtp-monitor@t-systems.at&quot;,&quot;distinguishedName&quot;:&quot;CN=smtp-monitor@t-systems.at,OU=T-Systems,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:&quot;smtp-monitor@t-systems.at&quot;,&quot;name&quot;:&quot;smtp-monitor@t-systems.at&quot;,&quot;objectGUID&quot;:&quot;b78ab5bc-abe2-4f82-9a16-e48c2a2fb171&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113641.0Z&quot;,&quot;whenCreated&quot;:&quot;20130429132550.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;smtp-monitor@t-systems.at&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;smtp-monitor@t-systems.at&quot;,&quot;mailNickname&quot;:&quot;smtp-monitor&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:smtp-monitor@t-systems.at&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;Sales@acam.de&quot;,&quot;distinguishedName&quot;:&quot;CN=Sales ACAM,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;Sales ACAM&quot;,&quot;objectGUID&quot;:&quot;13e5c8d6-f019-4d45-9919-97573750e6b5&quot;,&quot;sn&quot;:&quot;Sales ACAM&quot;,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113627.0Z&quot;,&quot;whenCreated&quot;:&quot;20150311113028.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;Sales ACAM&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;sales@acam.de&quot;,&quot;mailNickname&quot;:null,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:null,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;8D_AOS&quot;,&quot;distinguishedName&quot;:&quot;CN=8D_AOS,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;8D_AOS&quot;,&quot;objectGUID&quot;:&quot;40a40e57-ef45-45ff-84de-7fa93312e2b5&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150609102442.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;8D_AOS&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;8D_AOS@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;8D_AOS&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:8D_AOS@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;8D_FSF&quot;,&quot;distinguishedName&quot;:&quot;CN=8D_FSF,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;8D_FSF&quot;,&quot;objectGUID&quot;:&quot;846a70f6-6715-4723-8c69-7fdf1f392ac0&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150609102509.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;8D_FSF&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;8D_FSF@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;8D_FSF&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:8D_FSF@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;8D_SSI&quot;,&quot;distinguishedName&quot;:&quot;CN=8D_SSI,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;8D_SSI&quot;,&quot;objectGUID&quot;:&quot;ce0fa842-707b-40ac-8a47-564bcbdfcfcd&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20170131114759.0Z&quot;,&quot;whenCreated&quot;:&quot;20150609102526.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;8D_SSI&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;8D_SSI@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;8D_SSI&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:8D_SSI@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;8D_WCP&quot;,&quot;distinguishedName&quot;:&quot;CN=8D_WCP,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;8D_WCP&quot;,&quot;objectGUID&quot;:&quot;501fce8a-3577-4be3-bd96-fb6a61fa06aa&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150609102549.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;8D_WCP&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;8D_WCP@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;8D_WCP&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:8D_WCP@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;CRM-Mail-Transfer&quot;,&quot;distinguishedName&quot;:&quot;CN=CRM-Mail-Transfer,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;CRM-Mail-Transfer&quot;,&quot;objectGUID&quot;:&quot;c5019e71-b1b6-40e1-8281-1f28f6b8355c&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150615141118.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;CRM-Mail-Transfer&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;inbox@sapcp1.ams.com&quot;,&quot;mailNickname&quot;:&quot;CRM-Mail-Transfer&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:CRM-Mail-Transfer@ams.com&quot;,&quot;SMTP:inbox@sapcp1.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;8D_corporate&quot;,&quot;distinguishedName&quot;:&quot;CN=8D_corporate,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;8D_corporate&quot;,&quot;objectGUID&quot;:&quot;e53cca8c-fa96-4e55-af59-dd0672940223&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150609102606.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;8D_corporate&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;8D_corporate@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;8D_corporate&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:8D_corporate@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;CRM-Mail-Transfer-Test&quot;,&quot;distinguishedName&quot;:&quot;CN=CRM-Mail-Transfer-Test,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;CRM-Mail-Transfer-Test&quot;,&quot;objectGUID&quot;:&quot;ae70b198-df56-447a-a300-34154d6e6648&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150615141552.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;CRM-Mail-Transfer-Test&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;inbox@sapcq1.ams.com&quot;,&quot;mailNickname&quot;:&quot;CRM-Mail-Transfer-Test&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:CRM-Mail-Transfer-Test@ams.com&quot;,&quot;SMTP:inbox@sapcq1.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;mpls.report&quot;,&quot;distinguishedName&quot;:&quot;CN=mpls.report,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;mpls.report&quot;,&quot;objectGUID&quot;:&quot;c39302c3-69a7-4e1a-9847-0e93e136bc9d&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20170209153045.0Z&quot;,&quot;whenCreated&quot;:&quot;20170209152527.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;mpls.report&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;mpls.report@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;mpls.report&quot;,&quot;msExchHideFromAddressLists&quot;:&quot;TRUE&quot;,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:mpls.report@ams.com&quot;,&quot;SMTP:mpls.report@intranet.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:null,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:null,&quot;displayName&quot;:&quot;AlertNotifications_mox&quot;,&quot;distinguishedName&quot;:&quot;CN=AlertNotifications_mox,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;AlertNotifications_mox&quot;,&quot;objectGUID&quot;:&quot;c463faff-db98-4416-b2ab-c850dbc6ee05&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20180412110431.0Z&quot;,&quot;whenCreated&quot;:&quot;20180412110420.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;AlertNotifications_mox&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;AlertNotifications_mox@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;AlertNotifications_mox&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:AlertNotifications_mox@ams.com&quot;,&quot;SMTP:AlertNotifications_mox@intranet.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:null,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;J. Riedl&quot;,&quot;displayName&quot;:&quot;AlertNotifications_test&quot;,&quot;distinguishedName&quot;:&quot;CN=AlertNotifications_test,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;AlertNotifications_test&quot;,&quot;objectGUID&quot;:&quot;f8663c32-1098-47e5-ae1a-c9a5ed641e2a&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150116092603.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;AlertNotifications_test&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;AlertNotifications_test@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;AlertNotifications_test&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:AlertNotifications_test@ams.com&quot;,&quot;SMTP:AlertNotifications_test@intranet.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;J. Riedl&quot;,&quot;displayName&quot;:&quot;AlertNotifications_assy&quot;,&quot;distinguishedName&quot;:&quot;CN=AlertNotifications_assy,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;AlertNotifications_assy&quot;,&quot;objectGUID&quot;:&quot;1a1d0f9d-3fec-4a60-8fdc-cef82ab48f7a&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150116092721.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;AlertNotifications_assy&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;AlertNotifications_assy@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;AlertNotifications_assy&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:&quot;SMTP:AlertNotifications_assy@intranet.ams.com&quot;,&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null},{&quot;description&quot;:&quot;J. Riedl&quot;,&quot;displayName&quot;:&quot;AlertNotifications_aoi&quot;,&quot;distinguishedName&quot;:&quot;CN=AlertNotifications_aoi,OU=amsintern,OU=SPSAddressList,DC=office,DC=amsiag,DC=com&quot;,&quot;givenName&quot;:null,&quot;name&quot;:&quot;AlertNotifications_aoi&quot;,&quot;objectGUID&quot;:&quot;dbeac419-d567-4183-bb7e-aebf04b376cd&quot;,&quot;sn&quot;:null,&quot;telephoneNumber&quot;:null,&quot;whenChanged&quot;:&quot;20160324113614.0Z&quot;,&quot;whenCreated&quot;:&quot;20150116092748.0Z&quot;,&quot;ETL_DATETIME&quot;:null,&quot;cn&quot;:&quot;AlertNotifications_aoi&quot;,&quot;company&quot;:null,&quot;mail&quot;:&quot;AlertNotifications_aoi@intranet.ams.com&quot;,&quot;mailNickname&quot;:&quot;AlertNotifications_aoi&quot;,&quot;msExchHideFromAddressLists&quot;:null,&quot;objectCategory&quot;:&quot;CN=Person,CN=Schema,CN=Configuration,DC=amsiag,DC=com&quot;,&quot;proxyAddresses&quot;:[&quot;smtp:AlertNotifications_aoi@ams.com&quot;,&quot;SMTP:AlertNotifications_aoi@intranet.ams.com&quot;],&quot;msExchExtensionAttribute20&quot;:&quot;mail_contact&quot;,&quot;msExchRequireAuthToSendTo&quot;:null}]</find>
+      <find>_IT.DS.AD.PRT,OU=SPSamsContacts,DC=office,DC=amsiag,DC=com</find>
+      <find>managed</find>
+      <find>ETL</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/model/GroupLdap.js" />
         <option value="$PROJECT_DIR$/src/LdapExtractors/GroupsService.js" />
         <option value="$PROJECT_DIR$/src/DatabaseOperations/UserManager.js" />
-        <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/src/test.js" />
         <option value="$PROJECT_DIR$/src/Models/UserLdap.js" />
         <option value="$PROJECT_DIR$/src/Models/GroupLdap.js" />
@@ -98,17 +94,31 @@
         <option value="$PROJECT_DIR$/__tests__/Utils/parsers.js" />
         <option value="$PROJECT_DIR$/src/Models/ContactsLdap.js" />
         <option value="$PROJECT_DIR$/src/Models/ContactLdap.js" />
-        <option value="$PROJECT_DIR$/src/promiseeventemiter.js" />
-        <option value="$PROJECT_DIR$/contacts.json" />
-        <option value="$PROJECT_DIR$/src/Services/ContactsService.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" />
         <option value="$PROJECT_DIR$/src/Utils/parsers.js" />
         <option value="$PROJECT_DIR$/__tests__/Utils/parsers.spec.js" />
-        <option value="$PROJECT_DIR$/src/Services/UsersService.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" />
-        <option value="$PROJECT_DIR$/src/Services/GroupsService.js" />
         <option value="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" />
+        <option value="$PROJECT_DIR$/contacts.json" />
+        <option value="$PROJECT_DIR$/src/promiseeventemiter.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/__tests__/Utils/convertDND2GUID.spec.js" />
+        <option value="$PROJECT_DIR$/src/Utils/convertDN2GUID.js" />
+        <option value="$PROJECT_DIR$/src/Services/ContactsService.js" />
+        <option value="$PROJECT_DIR$/src/Services/GroupsService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/LoadGroupMembersDb.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Services/UsersService.js" />
+        <option value="$PROJECT_DIR$/src/Services/ReplicationTables/ContactsReplicationService.js" />
+        <option value="$PROJECT_DIR$/src/Services/ReplicationTables/UsersReplicationService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js" />
+        <option value="$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js" />
+        <option value="$PROJECT_DIR$/src/index2.js" />
+        <option value="$PROJECT_DIR$/src/config.js" />
       </list>
     </option>
   </component>
@@ -128,16 +138,20 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="288" />
-    <option name="y" value="131" />
+    <option name="x" value="133" />
+    <option name="y" value="125" />
     <option name="width" value="1544" />
     <option name="height" value="1023" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +170,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DatabaseOperations" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DatabaseOperations" type="462c0819:PsiDirectoryNode" />
+              <item name="ReplicationTables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="ReplicationTables" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sviu/Desktop/Node LDAP/src/DatabaseOperations/LoadGroupMembersDb.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
@@ -188,10 +222,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\DatabaseOperations\ReplicationTables" />
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\Services\ReplicationTables" />
+      <recent name="C:\Users\sviu\Desktop\Node LDAP\src" />
       <recent name="C:\Users\sviu\Desktop\Node LDAP\src\DatabaseOperations" />
       <recent name="C:\Users\sviu\Desktop\Node LDAP\src\Services" />
-      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\Models" />
-      <recent name="C:\Users\sviu\Desktop\Node LDAP\src\LdapExtractors" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sviu\Desktop\Node LDAP\src\LdapExtractors" />
@@ -304,7 +339,10 @@
       <workItem from="1523522848280" duration="21188000" />
       <workItem from="1523610864606" duration="18312000" />
       <workItem from="1523867097116" duration="20676000" />
-      <workItem from="1523956102239" duration="6432000" />
+      <workItem from="1523956102239" duration="10288000" />
+      <workItem from="1523983755957" duration="423000" />
+      <workItem from="1524039899724" duration="17804000" />
+      <workItem from="1524126371915" duration="13546000" />
     </task>
     <servers />
   </component>
@@ -341,7 +379,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117309000" />
+    <option name="totallyTimeSpent" value="152938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,15 +392,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1938883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18282403" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.2570806" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33660132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33877996" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2962963" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,31 +421,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__tests__/Utils/parsers.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -530,6 +548,64 @@
     <entry file="file://$PROJECT_DIR$/node_modules/ldap2date/ldap2date.js" />
     <entry file="file://$PROJECT_DIR$/src/test.js" />
     <entry file="file://$PROJECT_DIR$/myjsonfile.json" />
+    <entry file="file://$PROJECT_DIR$/src/Utils/ldap2date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/ContactLdap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.json" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groups.json" />
+    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/Utils/parsers.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/Utils/convertDND2GUID.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5359">
+          <caret line="54" column="152" selection-start-line="54" selection-start-column="152" selection-end-line="54" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/UserLdap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -546,29 +622,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/promiseeventemiter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/ldap2date.js">
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="28" />
+        <state relative-caret-position="-907">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__tests__/Utils/parsers.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="648">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/ContactLdap.js">
+    <entry file="file://$PROJECT_DIR$/src/Utils/convertDN2GUID.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ContactsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/LoadGroupMembersDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/UsersReplicationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/ContactsReplicationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="21" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="63" column="85" selection-start-line="63" selection-start-column="85" selection-end-line="63" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="124" column="85" selection-start-line="124" selection-start-column="85" selection-end-line="124" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -579,73 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.json">
+    <entry file="file://$PROJECT_DIR$/src/index2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18270">
-          <caret line="1015" column="23" selection-start-line="1015" selection-start-column="22" selection-end-line="1015" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/ContactsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/parsers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/UserDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="400">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>

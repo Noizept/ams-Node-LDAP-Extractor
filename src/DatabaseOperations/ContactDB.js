@@ -8,7 +8,7 @@ async function insert(aRawListOfContacts) {
         let conn = null;
         try {
             let sql = 'INSERT INTO ' +
-                'ADI_CONTACTS (' +
+                'ADI_CONTACTS (ID,' +
                                                 'DESCRIPTION,' +
                                                 'DISPLAYNAME,' +
                                                 'DISTINGUISHEDNAME,' +
@@ -30,7 +30,7 @@ async function insert(aRawListOfContacts) {
                                                 'msExchExtensionAttribute20,' +
                                                 'MSEXCHREQUIREAUTHTOSENDTO ' +
                                                 ') ' +
-                'VALUES ( ' +
+                'VALUES (:objectGUID, ' +
                             ':description,' +
                             ':displayName,' +
                             ':distinguishedName,' +

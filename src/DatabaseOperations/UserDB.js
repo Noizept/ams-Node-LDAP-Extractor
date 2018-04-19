@@ -8,7 +8,7 @@ async function insert(aRawListOfUsers) {
     return new Promise(async (resolve,reject)=> {
         let conn = null;
         try {
-            let sql = 'INSERT INTO ADI_USERS (' +
+            let sql = 'INSERT INTO ADI_USERS (ID,' +
                 'ACCOUNTEXPIRES,' +
                 ' C,CO, ' +
                 'COMPANY, COUNTRYCODE,DEPARTMENT, DESCRIPTION, DISPLAYNAME,' +
@@ -28,7 +28,7 @@ async function insert(aRawListOfUsers) {
                 'MSEXCHEXTENSIONATTRIBUTE20,' +
                 'INFO, LASTLOGON, MSEXCHREQUIREAUTHTOSENDTO' +
                 ') ' +
-                'VALUES( :accountExpires,:c,:co,:company,:countryCode,:department,:description,:displayName,' +
+                'VALUES(:objectGUID, :accountExpires,:c,:co,:company,:countryCode,:department,:description,:displayName,' +
                 ':distinguishedName,:employeeID,:extensionAttribute1,:extensionAttribute2,:extensionAttribute3,' +
                 ':extensionAttribute4,:extensionAttribute5,:extensionAttribute8,:extensionAttribute9,:extensionAttribute10,' +
                 ':extensionAttribute12,:extensionAttribute15,:facsimileTelephoneNumber,:givenName,:ipPhone,:l,:mail,:mobile,' +

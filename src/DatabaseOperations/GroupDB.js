@@ -8,7 +8,7 @@ async function insert(aRawListOfUsers) {
         let conn = null;
         try {
             let sql = 'INSERT INTO ' +
-                'ADI_GROUPS (' +
+                'ADI_GROUPS (ID,' +
                                                 'DISTINGUISHEDNAME,' +
                                                 'OBJECTGUID,' +
                                                 'STATE,' +
@@ -34,7 +34,7 @@ async function insert(aRawListOfUsers) {
                                                 'GIDNUMBER,' +
                                                 'MSEXCHEXTENSIONATTRIBUTE20,' +
                                                 'DLMEMSUBMITPERMS ) ' +
-                'VALUES (  ' +
+                'VALUES (:objectGUID,  ' +
                         ':distinguishedName,' +
                         ':objectGUID,' +
                         ':userAccountControl,' +
