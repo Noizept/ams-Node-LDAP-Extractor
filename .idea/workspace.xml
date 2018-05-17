@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="844c153c-db00-4257-9b1c-fb9ffb18f78d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/ContactDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/GroupDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/UserDB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/promiseeventemiter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promiseeventemiter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,30 +18,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index2.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="18">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.js">
+      <file leaf-file-name="ContactsReplicationTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupsReplicationTable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="98" column="28" lean-forward="true" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsReplicationService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js">
+      <file leaf-file-name="UserReplicationTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="129" column="65" lean-forward="true" selection-start-line="129" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -71,6 +86,7 @@
       <find>_IT.DS.AD.PRT,OU=SPSamsContacts,DC=office,DC=amsiag,DC=com</find>
       <find>managed</find>
       <find>ETL</find>
+      <find>currentLoadTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,12 +129,13 @@
         <option value="$PROJECT_DIR$/src/Services/UsersService.js" />
         <option value="$PROJECT_DIR$/src/Services/ReplicationTables/ContactsReplicationService.js" />
         <option value="$PROJECT_DIR$/src/Services/ReplicationTables/UsersReplicationService.js" />
-        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js" />
-        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js" />
         <option value="$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js" />
-        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js" />
-        <option value="$PROJECT_DIR$/src/index2.js" />
         <option value="$PROJECT_DIR$/src/config.js" />
+        <option value="$PROJECT_DIR$/src/index2.js" />
+        <option value="$PROJECT_DIR$/src/testruncate.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js" />
+        <option value="$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js" />
       </list>
     </option>
   </component>
@@ -138,8 +155,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="125" />
+    <option name="x" value="-7" />
+    <option name="y" value="-13" />
     <option name="width" value="1544" />
     <option name="height" value="1023" />
   </component>
@@ -177,19 +194,6 @@
               <item name="DatabaseOperations" type="462c0819:PsiDirectoryNode" />
               <item name="ReplicationTables" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Node LDAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node LDAP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="ReplicationTables" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +222,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -342,7 +346,11 @@
       <workItem from="1523956102239" duration="10288000" />
       <workItem from="1523983755957" duration="423000" />
       <workItem from="1524039899724" duration="17804000" />
-      <workItem from="1524126371915" duration="13546000" />
+      <workItem from="1524126371915" duration="15231000" />
+      <workItem from="1524564554946" duration="5000" />
+      <workItem from="1526564678292" duration="528000" />
+      <workItem from="1526566349882" duration="1022000" />
+      <workItem from="1526573529860" duration="797000" />
     </task>
     <servers />
   </component>
@@ -379,7 +387,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152938000" />
+    <option name="totallyTimeSpent" value="156975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +409,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33660132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2962963" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.44880176" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,13 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/UsersService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1278">
@@ -555,27 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/ContactLdap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__tests__/Utils/convertDND2GUID.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5359">
-          <caret line="54" column="152" selection-start-line="54" selection-start-column="152" selection-end-line="54" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/UserLdap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -617,13 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promiseeventemiter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -683,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/UsersReplicationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/GroupsService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -697,52 +656,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/ContactsReplicationService.js">
+    <entry file="file://$PROJECT_DIR$/__tests__/Utils/convertDND2GUID.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="21" selection-start-line="29" selection-end-line="30" />
+        <state relative-caret-position="-5282">
+          <caret line="54" column="152" selection-start-line="54" selection-start-column="152" selection-end-line="54" selection-end-column="152" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" column="85" selection-start-line="63" selection-start-column="85" selection-end-line="63" selection-end-column="85" />
+        <state relative-caret-position="-134">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js">
+    <entry file="file://$PROJECT_DIR$/src/promiseeventemiter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="124" column="85" selection-start-line="124" selection-start-column="85" selection-end-line="124" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="239">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/GroupsReplicationService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="-391">
           <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.js">
+    <entry file="file://$PROJECT_DIR$/src/Models/ContactLdap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/UsersReplicationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/ReplicationTables/ContactsReplicationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="21" selection-start-line="29" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="18">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/ContactsReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testruncate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/UserReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="129" column="65" lean-forward="true" selection-start-line="129" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseOperations/ReplicationTables/GroupsReplicationTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="98" column="28" lean-forward="true" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
         </state>
       </provider>
     </entry>

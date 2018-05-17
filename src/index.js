@@ -1,40 +1,40 @@
 'use strict';
-let ldapUsers = require('./Services/UsersService');
-let ldapGroups = require('./Services/GroupsService');
-let ldapContacts = require('./Services/ContactsService');
+let ldapUsers = require('./Services/ReplicationTables/UsersReplicationService');
+let UserDatabase = require('./DatabaseOperations/ReplicationTables/UserReplicationTable');
 
 
-let _ = require('underscore');
-let UserDatabase = require('./DatabaseOperations/UserDB');
-let GroupDatabase = require('./DatabaseOperations/GroupDB');
-let ContactDatabase = require('./DatabaseOperations/ContactDB');
-let LoadgroupMembersDatabase = require('./DatabaseOperations/LoadGroupMembersDb');
+let ldapContacts = require('./Services/ReplicationTables/ContactsReplicationService');
+let ContactsDatabase = require('./DatabaseOperations/ReplicationTables/ContactsReplicationTable');
 
+
+let ldapGroups = require('./Services/ReplicationTables/GroupsReplicationService');
+let GroupsDatabase = require('./DatabaseOperations/ReplicationTables/GroupsReplicationTable');
 
 let users;
-let groups;
 let contacts;
+let groups;
+
 
 
 
 async function init(){
 
      try {
+         console.log('start');
          console.log(new Date());
-
-
+         /* FETCH USERS */
          users = await ldapUsers.getUsers();
          await UserDatabase.insert(users);
-         groups = await ldapGroups.getGroups();
-         await GroupDatabase.insert(groups);
+
+         /* FETCH CONTACTS */
          contacts = await ldapContacts.getContacts();
-         await ContactDatabase.insert(contacts);
+         await ContactsDatabase.insert(contacts);
 
+         /* FETCH Groups */
+         groups= await ldapGroups.getGroups();
+         await GroupsDatabase.insert(groups);
 
-
-
-         await  LoadgroupMembersDatabase.insert(users,groups);
-
+         console.log('end');
          console.log(new Date());
          process.exit(1);
 
