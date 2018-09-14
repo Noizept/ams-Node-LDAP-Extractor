@@ -1,14 +1,14 @@
 'use strict';
 const config = {
         database : {
-            user: 'username',
-            password: 'password',
-            connectString : 'address'
+            user: process.env.dbUser ,
+            password: process.env.dbPassword ,
+            connectString :  process.env.dbUrl ,
         },
         ldap : {
-            url :'url',
-            bindUser : 'bindUser',
-            bindPassword : 'bindPassword!'
+            url :process.env.ldapUrl,
+            bindUser : process.env.ldapUser,
+            bindPassword : process.env.ldapPassword
         }
 };
 
