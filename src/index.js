@@ -22,17 +22,24 @@ async function init(){
      try {
          console.log('start');
          console.log(new Date());
-         /* FETCH USERS */
-         users = await ldapUsers.getUsers();
-         await UserDatabase.insert(users);
-
-         /* FETCH CONTACTS */
-         contacts = await ldapContacts.getContacts();
-         await ContactsDatabase.insert(contacts);
 
          /* FETCH Groups */
          groups= await ldapGroups.getGroups();
          await GroupsDatabase.insert(groups);
+         groups=[];
+
+
+         /* FETCH USERS */
+         users = await ldapUsers.getUsers();
+         await UserDatabase.insert(users);
+         users =[];
+
+         /* FETCH CONTACTS */
+         contacts = await ldapContacts.getContacts();
+         await ContactsDatabase.insert(contacts);
+         contacts=[];
+
+
 
          console.log('end');
          console.log(new Date());
