@@ -93,7 +93,14 @@ async function insert(aRawListOfUsers) {
             conn = await oracle.getConnection({user: config.database.user, password: config.database.password, connectString: config.database.connectString});
             await conn.execute('truncate table ADIR_GROUPS_E DROP STORAGE');
 
-            let result = await conn.executeMany(sql, filtered_arr);
+            let halfWayThough = Math.floor(filtered_arr.length / 2);
+            let arrayFirstHalf = filtered_arr.slice(0, halfWayThough);
+            let arraySecondHalf = filtered_arr.slice(halfWayThough, filtered_arr.length);
+
+            let result = await conn.executeMany(sql, arrayFirstHalf);
+            await conn.commit();
+
+            result = await conn.executeMany(sql, arraySecondHalf);
             await conn.commit();
             await conn.close();
             resolve(result);
