@@ -94,14 +94,34 @@ async function insert(aRawListOfUsers) {
             await conn.execute('truncate table ADIR_GROUPS_E DROP STORAGE');
 
             let halfWayThough = Math.floor(filtered_arr.length / 2);
+
             let arrayFirstHalf = filtered_arr.slice(0, halfWayThough);
             let arraySecondHalf = filtered_arr.slice(halfWayThough, filtered_arr.length);
 
-            let result = await conn.executeMany(sql, arrayFirstHalf);
+
+
+            let firstHalfThough = Math.floor(arrayFirstHalf.length / 2);
+            let arrayFirstQuarter = arrayFirstHalf.slice(0, firstHalfThough);
+            let arraySecondQuarter = arrayFirstHalf.slice(firstHalfThough, arrayFirstHalf.length);
+
+
+
+            let secondtHalfThough = Math.floor(arraySecondHalf.length / 2);
+            let arrayThirdQuarter = arraySecondHalf.slice(0, secondtHalfThough);
+            let arrayForthdQuarter = arraySecondHalf.slice(secondtHalfThough, arraySecondHalf.length);
+
+
+            let result = await conn.executeMany(sql, arrayFirstQuarter);
+            await conn.commit();
+            result = await conn.executeMany(sql, arraySecondQuarter);
             await conn.commit();
 
-            result = await conn.executeMany(sql, arraySecondHalf);
+            result = await conn.executeMany(sql, arrayThirdQuarter);
             await conn.commit();
+            result = await conn.executeMany(sql, arrayForthdQuarter);
+            await conn.commit();
+
+
             await conn.close();
             resolve(result);
         } catch (e) {
