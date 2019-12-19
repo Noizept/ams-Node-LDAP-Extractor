@@ -4,7 +4,7 @@
   "author": "Sergio Viula",
   "dependencies": {
     "ldapjs": "^1.0.2",
-    "npm": "^6.7.0",
+    "npm": "^6.13.4",
     "oracledb": "^3.1.1",
     "underscore": "^1.9.1"
   },
