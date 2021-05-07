@@ -6,7 +6,7 @@
     "ldapjs": "^1.0.2",
     "npm": "^6.13.4",
     "oracledb": "^3.1.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "jest": "^22.4.4"
